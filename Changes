@@ -1,5 +1,12 @@
 Revision history for Syntax-Feature-Qs
 
+0.0101 2014-12-10T18:54:12Z CET
+ [Bug Fixes]
+ - install didn't return true.
+
+ [Meta]
+ - Skip travis.
+
 0.0100 2014-12-10T13:51:35Z CET
  - Initial release
 

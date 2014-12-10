@@ -1,7 +1,7 @@
 use strict;
 
 package Syntax::Feature::Qs;
-$Syntax::Feature::Qs::VERSION = '0.0100';
+$Syntax::Feature::Qs::VERSION = '0.0101';
 use Devel::Declare 0.006007 ();
 use B::Hooks::EndOfScope 0.09;
 use Sub::Install 0.925 qw/install_sub/;
@@ -38,7 +38,8 @@ method install($class: %args) {
     }
     on_scope_end {
         namespace::clean->clean_subroutines($target, @new_ops);
-    }
+    };
+    return 1;
 }
 
 method _run_callback {
@@ -79,8 +80,6 @@ __END__
 =head1 NAME
 
 Syntax::Feature::Qs - Trim whitespace from all lines
-
-=for html <p><a style="float: left;" href="https://travis-ci.org/Csson/p5-Syntax-Feature-Qs"><img src="https://travis-ci.org/Csson/p5-Syntax-Feature-Qs.svg?branch=master">&nbsp;</a>
 
 =head1 SYNOPSIS
 

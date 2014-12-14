@@ -1,7 +1,7 @@
 use strict;
 
 package Syntax::Feature::Qs;
-$Syntax::Feature::Qs::VERSION = '0.0101';
+$Syntax::Feature::Qs::VERSION = '0.0102';
 use Devel::Declare 0.006007 ();
 use B::Hooks::EndOfScope 0.09;
 use Sub::Install 0.925 qw/install_sub/;

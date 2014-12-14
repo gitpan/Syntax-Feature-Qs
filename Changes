@@ -1,5 +1,9 @@
 Revision history for Syntax-Feature-Qs
 
+0.0102 2014-12-14T23:28:33Z CET
+ [Meta]
+ - Added test prereq.
+
 0.0101 2014-12-10T18:54:12Z CET
  [Bug Fixes]
  - install didn't return true.

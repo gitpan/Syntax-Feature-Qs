@@ -47,9 +47,14 @@
             "namespace::clean" : "0",
             "perl" : "5.008005"
          }
+      },
+      "test" : {
+         "requires" : {
+            "Test::NoTabs" : "0"
+         }
       }
    },
    "release_status" : "stable",
-   "version" : "0.0101"
+   "version" : "0.0102"
 }
 

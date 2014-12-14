@@ -2,7 +2,8 @@
 abstract: 'Trim whitespace from all lines'
 author:
   - 'Erik Carlsson <info@code301.com>'
-build_requires: {}
+build_requires:
+  Test::NoTabs: '0'
 configure_requires:
   Module::Build::Tiny: '0.039'
 dynamic_config: 0
@@ -29,4 +30,4 @@ requires:
   Syntax::Feature::Simple::V2: '0'
   namespace::clean: '0'
   perl: '5.008005'
-version: '0.0101'
+version: '0.0102'
